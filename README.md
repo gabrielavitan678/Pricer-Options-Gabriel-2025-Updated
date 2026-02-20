@@ -10,7 +10,7 @@ BSM Solver: Implemented for instantaneous analytical benchmark pricing of Europe
 
 Binomial Tree: Engineered a CRR model (N=200+ steps) featuring backward induction to accurately price American options by identifying optimal early-exercise boundaries.
 
-Monte Carlo Engine: Developed a high-speed simulation engine using Geometric Brownian Motion (GBM) to generate 100,000+ price paths. To ensure institutional-level precision, I implemented Antithetic Variates as a variance reduction technique, significantly lowering the standard error of the risk-neutral expectation.
+Monte Carlo Engine: Developed a high-speed simulation engine using Geometric Brownian Motion (GBM) to generate 100,000+ price paths. To ensure institutional-level precision, I implemented Antithetic Variates as a variance reduction technique, significantly lowering the standard error of the risk-neutral expectation. 
 
 *2) Multi-Order Risk Management & Numerical Solvers*
 

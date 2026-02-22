@@ -4,8 +4,6 @@ A multi-model derivatives valuation engine built in Python, integrating
 Black-Scholes-Merton, Cox-Ross-Rubinstein Binomial Tree, and Antithetic 
 Monte Carlo simulations for cross-model validation and risk analysis.
 
-Live Demo · Source Code
-
 ---
 
 ## Motivation
@@ -13,7 +11,7 @@ Live Demo · Source Code
 During my internship at BGC Group (Euro Interest Rate Swaps desk, London, 
 2025), I observed daily derivatives pricing workflows and the practical 
 constraints of applying theoretical models in a real-time market environment. 
-This project was built to consolidate that experience — creating a unified 
+This project was built to consolidate that experience, creating a unified 
 terminal that runs three pricing models simultaneously, extracts Implied 
 Volatility from observed market prices, and stress-tests assumptions across 
 the volatility surface.
@@ -76,7 +74,7 @@ Market prices computed as bid-ask midpoint.
 ## Risk & Stress-Testing
 
 - **Greeks Engine:** First and second-order sensitivities (Delta, Gamma, 
-  Vega, Theta, Rho) — second-order Gamma critical for hedging nonlinear 
+  Vega, Theta, Rho), second-order Gamma critical for hedging nonlinear 
   exposure.
 - **IV Smile Analysis:** IV plotted across strike range to identify skewness 
   and kurtosis patterns indicative of tail-risk mispricing.
@@ -87,7 +85,7 @@ Market prices computed as bid-ask midpoint.
 
 ## Known Limitations
 
-- BSM and CRR assume constant volatility — no vol surface / SABR modelling
+- BSM and CRR assume constant volatility : no vol surface / SABR modelling
 - Monte Carlo runtime scales linearly with path count (not real-time optimized)
 - No dividend adjustment currently implemented
 - Next: Heston stochastic volatility model integration
